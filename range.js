@@ -1,3 +1,5 @@
+//1st method using recursion
+
  var arr = []
  function range(a,b) {
 	arr.push(a)
@@ -11,7 +13,7 @@
 range(12,18)
 console.log(arr)
 
-
+//2nd method using recursion
  function range(a,b) {
 	if(a > b)
 		return 0
